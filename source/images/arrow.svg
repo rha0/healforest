@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
+  <g id="그룹_92" data-name="그룹 92" transform="translate(-25 -104)">
+    <circle id="타원_15" data-name="타원 15" cx="38.5" cy="38.5" r="38.5" transform="translate(25 104)" fill="#fff" opacity="0.53"/>
+    <g id="right" transform="translate(199.003 161.995) rotate(180)">
+      <g id="그룹_66" data-name="그룹 66" transform="translate(128.003 0)">
+        <path id="패스_659" data-name="패스 659" d="M146.783,18.453,129.366.244a.792.792,0,0,0-1.144,1.095L145.115,19,128.222,36.662a.792.792,0,0,0,1.144,1.095l17.417-18.209A.793.793,0,0,0,146.783,18.453Z" transform="translate(-128.003 0)" fill="#fff" stroke="#727272" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

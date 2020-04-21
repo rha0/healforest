@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>치유의숲</title>
+        <link href="source/css/fontello.css" rel="stylesheet">
+        <link href="source/css/animation.css" rel="stylesheet">
+        <link href="source/css/style.css" rel="stylesheet">
+        <!-- javaScript  -->
+        <script src="source/js/jquery-3.4.1.min.js"></script>
+        <script src="source/js/common.js"></script>
+
+    </head>
+
+    <body class="main">
+   
+        <!-- S:header -->
+        <header id="header">
+            <div class="container">
+                <h1 class="sub_logo">서귀포 치유의숲</h1>
+            </div>
+        </header>
+        <!-- E:header -->
+        <!-- S:subContent -->
+        <div id="sub_content">
+            <div class="container">
+                
+                <div class="p_lookup number">
+                    <h2>예약 확인</h2>
+
+                    <input id="number" type="text" placeholder="예약번호를 입력해주세요.">
+                    <a href="" class="btn">조회</a>
+                </div>
+
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th class="number">1</th>
+                            <th class="number">2</th>
+                            <th class="number">3</th>
+                            <th class="number">4</th>
+                            <th class="number">5</th>
+                            <th class="delete"><img src="source/images/cancel.svg" alt="취소">
+                                <img class="mouse_over" src="source/images/cancel_hover.svg" alt="취소hover">
+                                취소
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="number">6</td>
+                            <td class="number">7</td>
+                            <td class="number">8</td>
+                            <td class="number">9</td>
+                            <td class="number">0</td>
+                            <td class="re-entry">재입력</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="info">
+                    <p>예약정보가 없습니다.</p> 
+                </div>
+
+                <div class="loading">
+                    <i class="icon-spin4 animate-spin" aria-hidden="true"></i>
+                    <h2>데이터를 불러오는 중 입니다.</h2>
+                </div>
+
+            </div>
+        </div>
+        <!-- E:subContent -->
+        <!-- S:footer -->
+        <footer id="footer">
+            <div class="container">
+                <a href="#" class="button home_btn"><i class="icon-home"></i>홈</a>
+                <a href="#" class="button print_btn">입장권출력</a>
+            </div>
+        </footer>
+        <!-- E:footer -->
+    </body>
+
+</html>

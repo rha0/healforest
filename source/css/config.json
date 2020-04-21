@@ -1,0 +1,172 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "5d2d07f112b8de19f2c0dbfec3e42c05",
+      "css": "spin5",
+      "code": 59448,
+      "src": "fontelico"
+    },
+    {
+      "uid": "1b8c845e3fcd06bd12a58fce9741f15e",
+      "css": "home",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M521 31Q843 310 1021 460 1041 476 1041 500 1041 521 1026 537T990 552L885 552 885 916Q885 937 870 953T834 969L678 969Q656 969 641 953T625 916L625 708 416 708 416 916Q416 937 401 953T365 969L209 969Q188 969 172 953T156 916L156 552 53 552Q31 552 16 537T0 500 19 460Z",
+        "width": 1041
+      },
+      "search": [
+        "home"
+      ]
+    },
+    {
+      "uid": "a3e31151fd01a05355f5f43e9a5c76c8",
+      "css": "check",
+      "code": 59397,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M499 57C255 57 57 255 57 499 57 743 255 941 499 941S941 743 941 499C941 255 743 57 499 57ZM463 647L312 496 346 462 463 579 647 395 681 429 463 647Z",
+        "width": 1000
+      },
+      "search": [
+        "check"
+      ]
+    },
+    {
+      "uid": "5cad7d22e1e860f3b5315e04fb830a5a",
+      "css": "minus",
+      "code": 59401,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M550 450Q580 450 580 500T550 550L30 550Q0 550 0 500T30 450L550 450Z",
+        "width": 580
+      },
+      "search": [
+        "minus"
+      ]
+    },
+    {
+      "uid": "769b858966c03ec26e50fbacc20b91d8",
+      "css": "plus",
+      "code": 59421,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M550 450Q580 450 580 500T550 550L340 550 340 760Q340 790 290 790T240 760L240 550 30 550Q0 550 0 500T30 450L240 450 240 240Q240 210 290 210T340 240L340 450 550 450Z",
+        "width": 580
+      },
+      "search": [
+        "plus"
+      ]
+    },
+    {
+      "uid": "a6b9652e8cf05a360883ea0ed841e2ee",
+      "css": "right-open",
+      "code": 61446,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M0 850Q0 825 18 807L323 503 18 199Q0 181 0 155T18 112 62 94 105 112L495 503 105 894Q86 912 62 912T18 894Q0 876 0 850Z",
+        "width": 495.1
+      },
+      "search": [
+        "right-open"
+      ]
+    },
+    {
+      "uid": "27a8968deb70895fc243848f0c6337f8",
+      "css": "left-open",
+      "code": 61447,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M0 497L391 106Q409 88 434 88 458 88 477 106 495 124 495 150T477 193L173 497 477 802Q495 819 495 845T477 888Q459 906 434 906T391 888Z",
+        "width": 495.1
+      },
+      "search": [
+        "left-open"
+      ]
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash-empty",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "95fb2e5fdd1ea7e4a420b6ed330e6b08",
+      "css": "sun",
+      "code": 59394,
+      "src": "meteocons"
+    },
+    {
+      "uid": "9af2b75a89bd99b83457f041df26da8b",
+      "css": "cloud-flash-alt",
+      "code": 59395,
+      "src": "meteocons"
+    },
+    {
+      "uid": "d577552bb94bdeb53e6517873481aeea",
+      "css": "rain",
+      "code": 59396,
+      "src": "meteocons"
+    },
+    {
+      "uid": "b500010a53f4807828ac252725dc6fd1",
+      "css": "hail",
+      "code": 59398,
+      "src": "meteocons"
+    },
+    {
+      "uid": "9cd3e294ca3ad3dda66bc5a804021c46",
+      "css": "cloud-sun",
+      "code": 59399,
+      "src": "meteocons"
+    },
+    {
+      "uid": "17463471d0f132cee16835507ea51ecf",
+      "css": "cloud",
+      "code": 59400,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2ca5a006e414e0827f7fc5b187689c04",
+      "css": "fog",
+      "code": 59402,
+      "src": "meteocons"
+    },
+    {
+      "uid": "dfec4ffa849d8594c2e4b86f6320b8a6",
+      "css": "angle-double-down",
+      "code": 61699,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "127ed05f3c024a9c73487f18cf3d530d",
+      "css": "snow",
+      "code": 59403,
+      "src": "meteocons"
+    },
+    {
+      "uid": "9bd60140934a1eb9236fd7a8ab1ff6ba",
+      "css": "spin4",
+      "code": 59444,
+      "src": "fontelico"
+    },
+    {
+      "uid": "9bc2902722abb366a213a052ade360bc",
+      "css": "spin6",
+      "code": 59449,
+      "src": "fontelico"
+    }
+  ]
+}

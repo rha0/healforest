@@ -1,0 +1,17 @@
+
+$myfont: "";
+
+@mixin txt($weight) {
+    @if $weight == light {
+        font-weight:300;
+    }
+    @else if $weight == normal {
+        font-weight:400;
+    }
+    @else if $weight == bold {
+        font-weight:700;
+    }
+    @else if $weight == bolder {
+        font-weight:800;
+    }
+}
