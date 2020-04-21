@@ -1039,7 +1039,6 @@ body div#sub_content .container table {
   border-spacing: 0;
   display: inline-block;
   width: 100%;
-  table-layout: fixed;
   margin: 3.75rem 0;
   background: #474747;
 }
