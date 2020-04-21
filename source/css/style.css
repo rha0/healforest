@@ -1226,7 +1226,6 @@ body div#sub_content .container section.payment p.price strong {
 }
 
 body div#sub_content .container div.loading {
-  display: none;
   background: #fff;
   width: 100%;
   height: 59.375rem;
@@ -1241,6 +1240,7 @@ body div#sub_content .container div.loading i {
 body div#sub_content .container div.loading h2 {
   font-size: 2.75rem;
   color: #909090;
+  font-weight: 500;
 }
 
 body div#sub_content .container div.list_wrap {

@@ -890,7 +890,6 @@ body {
             }
 
             div.loading {
-                display: none;
                 background: #fff;
                 width: 100%;
                 height: rem(950px);
@@ -904,6 +903,7 @@ body {
                 h2 {
                     font-size: rem(44px);
                     color: #909090;
+                    font-weight: 500;
                 }
             }
 
