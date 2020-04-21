@@ -688,14 +688,13 @@ body {
             table {
                 white-space: nowrap;
                 border-spacing:0;
-                display: inline-block;
                 width: 100%;
                 margin: rem(60px 0);
-                background: #474747;
 
                 thead {
                     tr {
                         th {
+                            background: #474747;
                             display: inline-block;
                             vertical-align: top;
                             border-right: 1px solid #707070;
@@ -749,6 +748,7 @@ body {
                 tbody {
                     tr {
                         td {
+                            background: #474747;
                             display: inline-block;
                             vertical-align: top;
                             width: rem(178px);

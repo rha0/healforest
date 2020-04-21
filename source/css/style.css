@@ -1037,13 +1037,12 @@ body div#sub_content .container div.p_lookup a {
 body div#sub_content .container table {
   white-space: nowrap;
   border-spacing: 0;
-  display: inline-block;
   width: 100%;
   margin: 3.75rem 0;
-  background: #474747;
 }
 
 body div#sub_content .container table thead tr th {
+  background: #474747;
   display: inline-block;
   vertical-align: top;
   border-right: 1px solid #707070;
@@ -1090,6 +1089,7 @@ body div#sub_content .container table thead tr th:nth-child(6):hover img.mouse_o
 }
 
 body div#sub_content .container table tbody tr td {
+  background: #474747;
   display: inline-block;
   vertical-align: top;
   width: 11.125rem;
