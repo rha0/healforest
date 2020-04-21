@@ -1048,7 +1048,6 @@ body div#sub_content .container table thead tr th {
   display: inline-block;
   vertical-align: top;
   border-right: 1px solid #707070;
-  border-top: 1px solid #ccc;
   border-bottom: 1px solid #707070;
   width: 11.125rem;
   height: 11.125rem;
@@ -1059,17 +1058,17 @@ body div#sub_content .container table thead tr th {
 }
 
 body div#sub_content .container table thead tr th:hover {
-  background: #eee;
+  background: #cfcfcf;
   color: #333;
 }
 
 body div#sub_content .container table thead tr th:nth-child(1) {
-  border-left: 1px solid #ccc;
+  border-left: none;
 }
 
 body div#sub_content .container table thead tr th:nth-child(6) {
   width: 14rem;
-  border-right: 1px solid #ccc;
+  border-right: none;
   font-size: 0;
 }
 
@@ -1104,17 +1103,17 @@ body div#sub_content .container table tbody tr td {
 }
 
 body div#sub_content .container table tbody tr td:hover {
-  background: #eee;
+  background: #cfcfcf;
   color: #333;
 }
 
 body div#sub_content .container table tbody tr td:nth-child(1) {
-  border-left: 1px solid #ccc;
+  border-left: none;
 }
 
 body div#sub_content .container table tbody tr td:nth-child(6) {
   width: 14rem;
-  border-right: 1px solid #ccc;
+  border-right: none;
 }
 
 body div#sub_content .container div.info {
@@ -1295,9 +1294,9 @@ body div#sub_content .container div.list_wrap ul.list li ul li {
 
 body div#sub_content .container div.list_wrap div.more p.bg {
   position: absolute;
-  left: 0;
+  left: 50%;
+  margin-left: -540px;
   bottom: 11.25rem;
-  margin: 0;
   height: 12.5rem;
   font-size: 0;
   width: 1080px;

@@ -700,7 +700,6 @@ body {
                             display: inline-block;
                             vertical-align: top;
                             border-right: 1px solid #707070;
-                            border-top: 1px solid #ccc;
                             border-bottom: 1px solid #707070;
                             width: rem(178px);
                             height: rem(178px);
@@ -710,17 +709,17 @@ body {
                             font-weight: 500;
 
                             &:hover {
-                                background: #eee;
+                                background: #cfcfcf;
                                 color: #333;
                             }
 
                             &:nth-child(1) {
-                                border-left: 1px solid #ccc;
+                                border-left: none;
                             }
 
                             &:nth-child(6) {
                                 width: rem(224px);
-                                border-right: 1px solid #ccc;
+                                border-right: none;
                                 font-size: 0;
 
                                 img {
@@ -762,17 +761,17 @@ body {
                             border-right: 1px solid #707070;
 
                             &:hover {
-                                background: #eee;
+                                background: #cfcfcf;
                                 color: #333;
                             }
 
                             &:nth-child(1) {
-                                border-left: 1px solid #ccc;
+                                border-left: none;
                             }
 
                             &:nth-child(6) {
                                 width: rem(224px);
-                                border-right: 1px solid #ccc;
+                                border-right: none;
                             }
                         }
                     }
