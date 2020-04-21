@@ -960,9 +960,9 @@ body {
 
                     p.bg {
                         position: absolute;
-                        left: 0;
+                        left: 50%;
+                        margin-left: -540px;
                         bottom: rem(180px);
-                        margin: 0;
                         height: rem(200px);
                         @include zero;
                         width: $min-width;
