@@ -580,7 +580,7 @@ body div#content .container {
   margin: 0 auto;
   padding-top: 3.75rem;
   width: 1080px;
-  height: 1815px;
+  height: 1503px;
   background: url("../images/bg.jpg") no-repeat center/100% auto;
 }
 
@@ -946,7 +946,7 @@ body div#sub_content .container div.p_lookup.parking ul.check li input[type="rad
 
 body div#sub_content .container div.p_lookup.parking ul.check li input[type="radio"]:checked + label {
   background: #F0FCF2;
-  border: 2px solid #0CA129;
+  border: 1px solid #0CA129;
   color: #0CA129;
 }
 

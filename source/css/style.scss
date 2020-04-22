@@ -193,7 +193,7 @@ body {
             margin: 0 auto;
             padding-top: rem(60px);
             width: $min-width;
-            height: 1815px;
+            height: 1503px;
             background: url("../images/bg.jpg") no-repeat center / 100% auto;
 
             h1.logo {
@@ -601,7 +601,7 @@ body {
                 
                             input[type="radio"]:checked + label{
                                 background: #F0FCF2;
-                                border: 2px solid #0CA129;
+                                border: 1px solid #0CA129;
                                 color: #0CA129;
                             }
 
