@@ -33,6 +33,38 @@ $(document).ready(function() {
         $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat top / cover");
     });
 
+    $("th").mouseup(function(){ 
+        $("th").removeClass("on");
+    });
+
+    $("th").mousedown(function(){ 
+        $(this).addClass("on");
+    });
+
+    $("th").on('touchstart', function (e) {
+        $(this).addClass("on");
+    });
+    
+    $("th").on('touchend', function (e) {
+        $("th").removeClass("on");
+    });
+
+    $("td").mouseup(function(){ 
+        $("td").removeClass("on");
+    });
+
+    $("td").mousedown(function(){ 
+        $(this).addClass("on");
+    });
+
+    $("td").on('touchstart', function (e) {
+        $(this).addClass("on");
+    });
+    
+    $("td").on('touchend', function (e) {
+        $("th").removeClass("on");
+    });
+
     $("div.ad").slick({
         autoplay:true,
         speed: 2000,

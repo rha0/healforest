@@ -32,23 +32,19 @@
                     <h2>주차료 결제</h2>
 
                     <ul class="check">
-                        <li class="active">
-                            <a href="">주차(경)<span>1,000원</span></a>
-                        </li>
                         <li>
-                            <a href="">주차(중소)<span>2,000원</span></a>
-                        </li>
-                        <li>
-                            <a href="">주차(대)<span>3,000원</span></a>
-                        </li>
-                        <li class="active">
-                            <a href="">전기(경)<span>500원</span></a>
-                        </li>
-                        <li>
-                            <a href="">전기(중소)<span>1,000원</span></a>
-                        </li>
-                        <li>
-                            <a href="">차량없음<span>(무료)</span></a>
+                            <input type="radio" name="parking1" value="주차(경)" id="small">
+                            <label for="small">주차(경)<span>1,000원</span></label>
+                            <input type="radio" name="parking2" value="주차(중소)" id="middle">
+                            <label for="middle">주차(중소)<span>1,000원</span></label>
+                            <input type="radio" name="parking3" value="주차(대)" id="large">
+                            <label class="no" for="large">주차(대)<span>1,000원</span></label>
+                            <input type="radio" name="parking4" value="전기(경)" id="e_small">
+                            <label for="e_small">전기(경)<span>500원</span></label>
+                            <input type="radio" name="parking5" value="전기(중소)" id="e_middle">
+                            <label for="e_middle">전기(중소)<span>1,000원</span></label>
+                            <input type="radio" name="parking6" value="차량없음" id="free">
+                            <label class="no" for="free">차량없음<span>(무료)</span></label>
                         </li>
                     </ul>
                 </div>
