@@ -1128,15 +1128,19 @@ body div#sub_content .container table tbody tr td:nth-child(6).on {
 body div#sub_content .container div.info {
   background: #fff;
   width: 100%;
-  height: 59.375rem;
+  height: 57.5rem;
 }
 
 body div#sub_content .container div.info p {
   height: 170px;
   margin: 0;
-  line-height: 59.375rem;
+  padding-top: 23.75rem;
   font-size: 2.75rem;
   color: #909090;
+}
+
+body div#sub_content .container div.info p span {
+  display: block;
 }
 
 body div#sub_content .container section.payment h2 {
@@ -1311,7 +1315,7 @@ body div#sub_content .container div.list_wrap ul.list li:nth-child(3) {
   margin-bottom: 8.75rem;
 }
 
-body div#sub_content .container div.list_wrap div.more p.bg {
+body div#sub_content .container div.more p.bg {
   position: absolute;
   left: 50%;
   margin-left: -540px;
@@ -1324,7 +1328,7 @@ body div#sub_content .container div.list_wrap div.more p.bg {
   background: linear-gradient(transparent, #e4e4e4, #B8B8B8);
 }
 
-body div#sub_content .container div.list_wrap div.more a {
+body div#sub_content .container div.more a {
   position: absolute;
   bottom: 14.375rem;
   left: 50%;

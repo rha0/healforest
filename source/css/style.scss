@@ -784,14 +784,18 @@ body {
             div.info {
                 background: #fff;
                 width: 100%;
-                height: rem(950px);
+                height: rem(920px);
 
                 p {
                     height: 170px;
                     margin: 0;
-                    line-height: rem(950px);
+                    padding-top: rem(380px);
                     font-size: rem(44px);
                     color: #909090;
+
+                    span {
+                        display: block;
+                    }
                 }
             }
 
@@ -968,37 +972,37 @@ body {
                         }
                     }
                 }
-    
-                div.more {
+            }
 
-                    p.bg {
-                        position: absolute;
-                        left: 50%;
-                        margin-left: -540px;
-                        bottom: rem(180px);
-                        height: rem(180px);
-                        @include zero;
-                        width: $min-width;
-                        background: transparent;
-                        background: -webkit-linear-gradient(transparent, #B8B8B8);
-                        background: -moz-linear-gradient(transparent, #B8B8B8);
-                        background: -o-linear-gradient(transparent, #B8B8B8);
-                        background: linear-gradient(transparent, rgb(228, 228, 228), #B8B8B8);
+            div.more {
 
-                    }
-    
-                    a {
-                        position: absolute;
-                        bottom: rem(230px);
-                        left: 50%;
-                        margin-left: rem(-76px);
-                        z-index: 99;
-                        display: block;
-                        font-size: rem(40px);
-                    }
-    
-                   
+                p.bg {
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -540px;
+                    bottom: rem(180px);
+                    height: rem(180px);
+                    @include zero;
+                    width: $min-width;
+                    background: transparent;
+                    background: -webkit-linear-gradient(transparent, #B8B8B8);
+                    background: -moz-linear-gradient(transparent, #B8B8B8);
+                    background: -o-linear-gradient(transparent, #B8B8B8);
+                    background: linear-gradient(transparent, rgb(228, 228, 228), #B8B8B8);
+
                 }
+
+                a {
+                    position: absolute;
+                    bottom: rem(230px);
+                    left: 50%;
+                    margin-left: rem(-76px);
+                    z-index: 99;
+                    display: block;
+                    font-size: rem(40px);
+                }
+
+               
             }
         }
 
