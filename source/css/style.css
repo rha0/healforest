@@ -615,11 +615,11 @@ body div#content .container ul.navigation li:nth-of-type(1) {
   background: #19964F;
 }
 
-body div#content .container ul.navigation li:nth-of-type(1)::before {
+body div#content .container ul.navigation li:nth-of-type(1) a::before {
   position: absolute;
   top: 5.3125rem;
   left: 50%;
-  margin-left: -5.3125rem;
+  margin-left: -5.1875rem;
   content: "";
   display: block;
   width: 10.625rem;
@@ -632,7 +632,7 @@ body div#content .container ul.navigation li:nth-of-type(2) {
   margin: 0;
 }
 
-body div#content .container ul.navigation li:nth-of-type(2)::before {
+body div#content .container ul.navigation li:nth-of-type(2) a::before {
   position: absolute;
   top: 5.3125rem;
   left: 50%;
@@ -648,7 +648,7 @@ body div#content .container ul.navigation li:nth-of-type(3) {
   background: #474747;
 }
 
-body div#content .container ul.navigation li:nth-of-type(3)::before {
+body div#content .container ul.navigation li:nth-of-type(3) a::before {
   position: absolute;
   top: 5.3125rem;
   left: 50%;
@@ -665,7 +665,7 @@ body div#content .container ul.navigation li:nth-of-type(4) {
   margin: 0;
 }
 
-body div#content .container ul.navigation li:nth-of-type(4)::before {
+body div#content .container ul.navigation li:nth-of-type(4) a::before {
   position: absolute;
   top: 5.625rem;
   left: 50%;
