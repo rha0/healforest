@@ -1210,7 +1210,7 @@ body div#sub_content .container section.payment div.lodge ul li button i::before
   padding: 0;
 }
 
-body div#sub_content .container section.payment div.lodge ul li button.delete {
+body div#sub_content .container section.payment div.lodge ul li button.delete_btn {
   display: block;
   border: none;
   border-radius: 0.75rem;
@@ -1223,7 +1223,7 @@ body div#sub_content .container section.payment div.lodge ul li button.delete {
   margin-left: 3.125rem;
 }
 
-body div#sub_content .container section.payment div.lodge ul li button.delete i {
+body div#sub_content .container section.payment div.lodge ul li button.delete_btn i {
   margin-right: 0.625rem;
 }
 
