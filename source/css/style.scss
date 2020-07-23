@@ -931,6 +931,14 @@ body {
                 }
             }
 
+            div#myOrder {
+
+                li {
+                    margin-bottom: rem(24px);
+                }
+
+            }
+
             div.list_wrap {
                 overflow: hidden;
                 height: rem(780px);

@@ -1263,6 +1263,10 @@ body div#sub_content .container div.loading h2 {
   font-weight: 500;
 }
 
+body div#sub_content .container div#myOrder li {
+  margin-bottom: 1.5rem;
+}
+
 body div#sub_content .container div.list_wrap {
   overflow: hidden;
   height: 48.75rem;
