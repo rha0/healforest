@@ -522,6 +522,7 @@ body {
 /* style */
 body {
   text-align: center;
+  overflow: hidden;
   /* header */
   /* mainContent */
   /* map */
