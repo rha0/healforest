@@ -99,6 +99,7 @@ html {
     max-width: 100%;
     font-size: 14px;
     min-height: 100%;
+    overflow: hidden;
 }
 
 
@@ -211,7 +212,7 @@ body {
 
                 li {
                     position: relative;
-                    display: inline-flex;
+                    display: inline-block;
                     height: rem(555px);
                     width: rem(460px);
                     margin: rem(0 55px 70px 0);
@@ -257,25 +258,7 @@ body {
 
                     &:nth-of-type(3) {
                         background: #474747;
-
-                        a {
-                            &::before {
-                                position: absolute;
-                                top: rem(85px);
-                                left: rem(50%);
-                                margin-left: rem(-76px);
-                                content: "";
-                                display: block;
-                                width: rem(170px);
-                                height: rem(200px);
-                                background: url(../images/navi_03.svg) no-repeat center / 100% auto;
-                            }
-                        }
-                    }
-
-                    &:nth-of-type(4) {
-                        background: #474747;
-                        margin: 0;
+                        left: -208px;
 
                         a {
                             &::before {

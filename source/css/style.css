@@ -491,6 +491,7 @@ html {
   max-width: 100%;
   font-size: 14px;
   min-height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -601,9 +602,7 @@ body div#content .container ul.navigation {
 
 body div#content .container ul.navigation li {
   position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
   height: 34.6875rem;
   width: 28.75rem;
   margin: 0 3.4375rem 4.375rem 0;
@@ -647,26 +646,10 @@ body div#content .container ul.navigation li:nth-of-type(2) a::before {
 
 body div#content .container ul.navigation li:nth-of-type(3) {
   background: #474747;
+  left: -208px;
 }
 
 body div#content .container ul.navigation li:nth-of-type(3) a::before {
-  position: absolute;
-  top: 5.3125rem;
-  left: 50%;
-  margin-left: -4.75rem;
-  content: "";
-  display: block;
-  width: 10.625rem;
-  height: 12.5rem;
-  background: url(../images/navi_03.svg) no-repeat center/100% auto;
-}
-
-body div#content .container ul.navigation li:nth-of-type(4) {
-  background: #474747;
-  margin: 0;
-}
-
-body div#content .container ul.navigation li:nth-of-type(4) a::before {
   position: absolute;
   top: 5.625rem;
   left: 50%;
